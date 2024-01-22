@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    background-color: #f3dff0;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header, footer {
+    background-color: #117e5a;
+    height: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: rgb(237, 233, 243);
+    text-shadow: 2px 2px 3px red;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    color: rgb(51, 115, 189);
+    text-shadow: 2px 2px 2px cyan;
+  }
+  
+  nav {
+    background-color: #58cf68;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0px 20px;
+    text-shadow: 2px 2px 2px rgb(240, 234, 234);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    background-color: #f3dff0;
+    padding-top: 25px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: rgb(111, 51, 189);,
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  a {
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(254, 9, 156);
+    text-shadow: 2px 2px 2px cyan;
+    flex: 0 0 30rem;
+  }
+  
+  a:hover {
+    border-bottom: 5px solid rgb(255, 132, 132);
+    background-color: rgb(234, 181, 190);
+    border-radius: 15px;
+    color: #080808;
+  }
+  
+  
+  p, ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(118, 20, 246);
+  }
+  
+  ul {
+    padding-left: 5%;
+  }
+  
+  .logo {
+    width: 150px;
+    border-radius: 25px;
+    float: left;
+    width: 100px; 
+    height: 60px;
+    margin-top: 20px;
+  }
+  
+  .logoRig {
+    margin-left: 5rem;
+     float: left; 
+  }
+  .logoLev {
+    margin-right: 5rem;
+    float: right; 
+  }
+  
+  h1 {
+    padding: 20px;
+  }
+  
+  main {
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+  
+  .clear {
+    clear: both;
+    margin: 10px 0px;
+    padding: 10px 0px;
+  }
+  
+  .blokGr {
+    margin: 1rem;
+  }
+  
+  .risGR {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 8px solid rgb(236, 179, 233);
+    border-radius: 17px;
+    height: 30vh;
+  }
+  
+  
+  .ulFrac{
+  margin-left: 25%;
+  }
+  
+  .gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap; 
+  }
+  
+  .galleryRastr{
+    flex: 1 0 10rem;
+    margin:5px ;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0,0, 0, 0.4);
+    overflow: hidden;
+    border-radius: 25px; 
+    opacity: 0.8; 
+  }
+  
+  .rastr{
+    width: 100%;
+    height: 100%; 
+    z-index: 2;
+  }
+  
+  .galleryRastr:hover{
+    width: 125%;
+    height: 125%;
+    opacity:1 ;
+    transform: skew(45deg, -45deg);
+    z-index: 1;
+  }
+  
+  
+  
+  .galleryVektor, .galleryFraktal{
+    flex: 1 0 30rem;
+    margin:15px ;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(255, 0, 0, 0.4);
+    overflow: hidden;
+    border-radius: 25px; 
+  }
+  .vektor, .Fraktal{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .galleryVektor:hover{
+    width: 115%;
+    transform: skew(-20deg, 20deg);
+  }
+  
+  
+   .galleryFraktal{
+    flex: 1 0 35rem;
+    margin:15px ;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0,0, 0, 0.4);
+    overflow: hidden;
+    border-radius: 25px; 
+  
+  }
+  
+  .galleryFraktal:hover{
+    width: 115%;
+    transform: skew(-35deg, 35deg);
+    z-index: 1;
+  }
+  
+  h2:hover {
+    color:chartreuse ;
+    text-shadow: 2px -4px 3px red;    
+    font-size: 3rem;
+  }
